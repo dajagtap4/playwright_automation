@@ -1,6 +1,5 @@
 
 import { test, expect } from '@playwright/test';
-
 test('assertion demo', async ({ page }) => {
 
     await page.goto('https://kitchen.applitools.com/')
@@ -33,7 +32,6 @@ test('assertion demo', async ({ page }) => {
     //check pageurl and title
     // await expect(page).toHaveURL('https://kitchen.applitools.com/')
     // await expect(page).toHaveTitle(/.*Kitchen/)
-
 
       //visual validation with screenshot
       await expect(page).toHaveScreenshot();
