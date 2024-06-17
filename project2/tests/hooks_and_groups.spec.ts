@@ -27,7 +27,7 @@ test.describe('All My Tests', () => {
 
     })
 
-    //here afterAll shoul use but its not working so for temp afterEach used.
+    //here afterAll should use but its not working so for temp afterEach used.
     test.afterEach(async ({ page }) => {
         await page.close();
     })
